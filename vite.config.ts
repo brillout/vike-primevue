@@ -3,7 +3,7 @@ import ssr from 'vike/plugin'
 import { UserConfig } from 'vite'
 
 const config: UserConfig = {
-  plugins: [vue(), ssr({ prerender: true })]
+  plugins: [vue(), ssr()]
 }
 
 export default config
